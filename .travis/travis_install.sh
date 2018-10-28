@@ -24,3 +24,8 @@ else
     echo "Unsupported platform: $TRAVIS_OS_NAME"
     exit 5
 fi
+
+cmake --version
+gcc --version
+g++ --version
+qmake --version
